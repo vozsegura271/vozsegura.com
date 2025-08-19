@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+    <title>VOZ SEGURA JG</title>
+    <link rel="stylesheet" href="stylevozsegura.css">
+    <link rel="stylesheet" href="fontproyect.css">
+</head>
+<body>
+    <img class="logotipovozsegura" src="logotipovozsegura.png" alt="Logotipo del proyecto">
+    <h1>
+        REALIZA TU DENUNCIA
+    </h1>
+
+    <h2>
+        Para garantizar una respuesta adecuada, te pedimos la mayor cantidad de detalles posible. 
+        ¡Gracias por tu colaboración! Tu aporte es muy valioso para nosotros y confiamos en que este proceso también sea de ayuda para ti.
+    </h2>
+
+    <h2>Responde estas preguntas básicas y luego completa el recuadro y completa el recuadro describiendo tu vivencia.</h2>
+
+    <form action="https://formsubmit.co/vozsegura14@gmail.com" method="POST">
+        
+        <h3>¿Qué tipo de incidente estás reportando?</h3>
+        <label><input type="radio" name="tipo" value="acoso" required> Acoso</label><br>
+        <label><input type="radio" name="tipo" value="violencia"> Violencia física/mental/sexual</label><br>
+        <label><input type="radio" name="tipo" value="vandalismo"> Vandalismo</label><br>
+        <label><input type="radio" name="tipo" value="otro"> Otro</label>
+
+        <h3>¿Dónde ocurrió el incidente?</h3>
+        <label><input type="radio" name="donde" value="aulas" required> Aulas</label><br>
+        <label><input type="radio" name="donde" value="espacios"> Espacios recreativos</label><br>
+        <label><input type="radio" name="donde" value="servicios"> Servicios higiénicos</label><br>
+        <label><input type="radio" name="donde" value="otro"> Otro</label>
+
+        <h3>¿Hubo algún testigo?</h3>
+        <label><input type="radio" name="testigo" value="si" required> Sí</label><br>
+        <label><input type="radio" name="testigo" value="no"> No</label><br>
+        <label><input type="radio" name="testigo" value="norecuerda"> No lo sé/No recuerdo</label><br>
+        <label>¿Quiénes? (Opcional)
+            <input class="involucrados" type="text" name="quienes" placeholder="¿Quiénes estuvieron involucrados?">
+        </label>
+        
+        <p>Adjuntar pruebas ayuda a darle peso a tu denuncia, hazlo aquí abajo:</p>
+        <label>
+            <input class="pruebasuwu" type="file" name="prueba" value="pruebas">
+        </label><br>
+        
+        <h2>Describe detalladamente los acontecimientos que originan tu denuncia.</h2> 
+            <textarea class="redactaaqui" required></textarea> 
+            <button type="submit">Confirmar y guardar.</button>
+
+        <br><br>
+    </form>
+</body>
+</html> 
